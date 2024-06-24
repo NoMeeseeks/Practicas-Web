@@ -5,6 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carls Jr.</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            font-size: large;
+            font-weight: bold;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,22 +45,48 @@
 
     </div>
     <!-- ========== Start Footer ========== -->
-    <footer style="height: 200px; background-color: black;" class="flex-container">
-        <div>
-
-        </div>
-        <div style="color: white; ">
-            <ul>
-                <li>ABOUT US</li>
-                <li>LOCATIONS</li>
-                <li>CAREERS</li>
-                <li>FRANCHISING</li>
-                <li>GIFT CARDS</li>
-                <li>NUTRITIONAL INFO</li>
-                <li>CONTACT</li>
-                <li>ORDER ONLINE</li>
-                <li>FOOD TRUCK</li>
-            </ul>
+    <footer style="height: 200px; background-color: black;">
+        <div class="flex-container">
+            <div>
+                <svg src="/shared/svg/carls_jr_logo.svg" class="w-100 ft-logo" alt=""></svg>
+            </div>
+            <div style="color: white; ">
+                <div>
+                    <ul>
+                        <li><a>ABOUT US</a></li>
+                        <li><a>LOCATIONS</a></li>
+                        <li><a>CAREERS</a></li>
+                        <li><a>FRANCHISING</a></li>
+                        <li><a>GIFT CARDS</a></li>
+                        <li><a>NUTRITIONAL INFO</a></li>
+                        <li><a>CONTACT</a></li>
+                        <li><a>ORDER ONLINE</a></li>
+                        <li><a>FOOD TRUCK</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/carlsjr/"><i class="fa-brands fa-facebook-f"></i><span
+                            class="sr-only">F</span></a>
+                    <a href="https://www.facebook.com/carlsjr/"><i class="fa-brands fa-facebook-f"></i><span
+                            class="sr-only">X</span></a>
+                    <a href="https://www.facebook.com/carlsjr/"><i class="fa-brands fa-facebook-f"></i><span
+                            class="sr-only">Y</span></a>
+                    <a href="https://www.facebook.com/carlsjr/"><i class="fa-brands fa-facebook-f"></i><span
+                            class="sr-only">I</span></a>
+                </div>
+                <div>
+                    <ul>
+                        <li style="padding-right: 10px;">Privacy Policy</li>
+                        <li style="padding-right: 10px;">Terms & Conditions</li>
+                        <li style="padding-right: 10px;">Accessibility Statement</li>
+                        <li style="padding-right: 10px;">Site Map</li>
+                        <li style="padding-right: 10px;">Beyond FAQ</li>
+                        <li style="padding-right: 10px;">Animal Welfare</li>
+                        <li style="padding-right: 10px;">CONTACT</li>
+                        <li style="padding-right: 10px;">E-Verify</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- ========== End Footer ========== -->
